@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96218E1F1C1F120F005D6549 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96218E1E1C1F120F005D6549 /* MonsterImg.swift */; };
+		9642A4011C20613700B9F701 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9642A3FF1C20613700B9F701 /* bite.wav */; };
+		9642A4021C20613700B9F701 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9642A4001C20613700B9F701 /* cave-music.mp3 */; };
+		9642A4041C20615500B9F701 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9642A4031C20615500B9F701 /* death.wav */; };
+		9642A4061C20615C00B9F701 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9642A4051C20615C00B9F701 /* heart.wav */; };
+		9642A4081C20617D00B9F701 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9642A4071C20617D00B9F701 /* skull.wav */; };
 		96DE5E471C19BE4700F45246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE5E461C19BE4700F45246 /* AppDelegate.swift */; };
 		96DE5E491C19BE4700F45246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE5E481C19BE4700F45246 /* ViewController.swift */; };
 		96DE5E4C1C19BE4700F45246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DE5E4A1C19BE4700F45246 /* Main.storyboard */; };
@@ -15,6 +21,7 @@
 		96DE5E541C19BE4700F45246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DE5E521C19BE4700F45246 /* LaunchScreen.storyboard */; };
 		96DE5E5F1C19BE4700F45246 /* gigapetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE5E5E1C19BE4700F45246 /* gigapetTests.swift */; };
 		96DE5E6A1C19BE4700F45246 /* gigapetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE5E691C19BE4700F45246 /* gigapetUITests.swift */; };
+		96DE5E781C1B5F9A00F45246 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE5E771C1B5F9A00F45246 /* DragImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96218E1E1C1F120F005D6549 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonsterImg.swift; path = ../MonsterImg.swift; sourceTree = "<group>"; };
+		9642A3FF1C20613700B9F701 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		9642A4001C20613700B9F701 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		9642A4031C20615500B9F701 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		9642A4051C20615C00B9F701 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		9642A4071C20617D00B9F701 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 		96DE5E431C19BE4700F45246 /* gigapet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gigapet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DE5E461C19BE4700F45246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96DE5E481C19BE4700F45246 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		96DE5E651C19BE4700F45246 /* gigapetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gigapetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DE5E691C19BE4700F45246 /* gigapetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gigapetUITests.swift; sourceTree = "<group>"; };
 		96DE5E6B1C19BE4700F45246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96DE5E771C1B5F9A00F45246 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,11 @@
 				96DE5E5D1C19BE4700F45246 /* gigapetTests */,
 				96DE5E681C19BE4700F45246 /* gigapetUITests */,
 				96DE5E441C19BE4700F45246 /* Products */,
+				9642A3FF1C20613700B9F701 /* bite.wav */,
+				9642A4001C20613700B9F701 /* cave-music.mp3 */,
+				9642A4031C20615500B9F701 /* death.wav */,
+				9642A4051C20615C00B9F701 /* heart.wav */,
+				9642A4071C20617D00B9F701 /* skull.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +120,8 @@
 			children = (
 				96DE5E461C19BE4700F45246 /* AppDelegate.swift */,
 				96DE5E481C19BE4700F45246 /* ViewController.swift */,
+				96DE5E771C1B5F9A00F45246 /* DragImg.swift */,
+				96218E1E1C1F120F005D6549 /* MonsterImg.swift */,
 				96DE5E4A1C19BE4700F45246 /* Main.storyboard */,
 				96DE5E501C19BE4700F45246 /* Assets.xcassets */,
 				96DE5E521C19BE4700F45246 /* LaunchScreen.storyboard */,
@@ -232,6 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9642A4081C20617D00B9F701 /* skull.wav in Resources */,
+				9642A4011C20613700B9F701 /* bite.wav in Resources */,
+				9642A4041C20615500B9F701 /* death.wav in Resources */,
+				9642A4061C20615C00B9F701 /* heart.wav in Resources */,
+				9642A4021C20613700B9F701 /* cave-music.mp3 in Resources */,
 				96DE5E541C19BE4700F45246 /* LaunchScreen.storyboard in Resources */,
 				96DE5E511C19BE4700F45246 /* Assets.xcassets in Resources */,
 				96DE5E4C1C19BE4700F45246 /* Main.storyboard in Resources */,
@@ -259,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96218E1F1C1F120F005D6549 /* MonsterImg.swift in Sources */,
 				96DE5E491C19BE4700F45246 /* ViewController.swift in Sources */,
 				96DE5E4F1C19BE4700F45246 /* gigapet.xcdatamodeld in Sources */,
 				96DE5E471C19BE4700F45246 /* AppDelegate.swift in Sources */,
+				96DE5E781C1B5F9A00F45246 /* DragImg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.jasonplumb.gigapet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -416,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.jasonplumb.gigapet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -486,6 +516,7 @@
 				96DE5E701C19BE4700F45246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96DE5E711C19BE4700F45246 /* Build configuration list for PBXNativeTarget "gigapetTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +525,7 @@
 				96DE5E731C19BE4700F45246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96DE5E741C19BE4700F45246 /* Build configuration list for PBXNativeTarget "gigapetUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +534,7 @@
 				96DE5E761C19BE4700F45246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
